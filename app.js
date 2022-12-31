@@ -1,7 +1,7 @@
 const express = require('express'); // express 모듈 추가하기
 
 const app = express();
-const port = 5432;
+const port = 3000;
 const path = require('path');
 
 app.set('views', __dirname + '/views');
