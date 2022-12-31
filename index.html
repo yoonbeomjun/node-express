@@ -1,20 +1,27 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8" />
-        <title>My test page</title>
-    </head>
-    <body>
-        <h1>SW Company</h1>
-        <div>
-            <input type="text" placeholder="가맹점 입력">
-            <button id="searchBtn" onclick="movepage()">검색</button>
-            <script type="text/javascript" src="index.js"></script>
-        </div>
-        <span class="test_span">this is test</span>
-        <p> <a href="dataInfo.html">ex05.html</a></p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
 
-        
-        
-    </body>
+<h3>로그인</h3>
+<form action="/user/login" method="post">
+    <table>
+        <tr>
+            <td>이메일 : </td>
+            <td><input type="text" name="userEmail"></td>
+        </tr>
+        <tr>
+            <td>비번 : </td>
+            <td><input type="password" name="password"></td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="로그인"></td>
+        </tr>
+    </table>
+</form>
+
+</body>
 </html>
